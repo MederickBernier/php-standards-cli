@@ -1,9 +1,10 @@
-#!/usr/bin/env bash
+#!/usr/bin/env php
 <?php
 
 declare(strict_types=1);
-require __DIR__.'/../vendor/autoload.php';
+
+require __DIR__ . '/../vendor/autoload.php';
 
 use Mederick\PhpStd\Cli;
 
-Cli::run();
+Cli::run($argv);
