@@ -1,0 +1,17 @@
+{
+    "name": "mederick/php-standards-cli",
+    "description": "ClI to bootstrap PHP project standards (.editorconfit, phpstan, php-cs-fixer).",
+    "type": "library",
+    "license":"MIT",
+    "autoload":{
+        "psr-4":{
+            "Mederick\\PhpStd\\": "src/"
+        }
+    },
+    "bin":[
+        "bin/php-std"
+    ],
+    "require":{
+        "php":">=8.1"
+    }
+}
